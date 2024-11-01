@@ -22,6 +22,19 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "callSetName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -37,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1_Storage.sol": "MyContract"
+			"contracts/MyContract.sol": "MyContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1_Storage.sol": {
-			"keccak256": "0xb80e747b49e81e72957183acbe01c5599f851460d5834d09e9e62b4c8f028b29",
+		"contracts/MyContract.sol": {
+			"keccak256": "0x8c38b034b1005f43a6cf463df66bdbd75fe92451c48d0b6cf510903dee846920",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5deb92fbf4c160be137dea55dbe2c5fd06f09e1228f5294ba3b9014ab3ae1efe",
-				"dweb:/ipfs/QmNdjfRS6ke5uHVxA6qEutVbFggrNQeE9wEpynLoisWEqb"
+				"bzz-raw://0bffe8287e8d491398f4a95d42426cfe998c8ac9cb38530242cabc275201c0f9",
+				"dweb:/ipfs/QmbH3heDaTZqvQ8mrnGQziufHynwbeuvhesziobLJeveEt"
 			]
 		}
 	},
