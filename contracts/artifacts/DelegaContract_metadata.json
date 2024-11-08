@@ -70,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyContract.sol": "AnotherContract"
+			"contracts/Delegate.sol": "DelegaContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -84,12 +84,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyContract.sol": {
-			"keccak256": "0x49f3ae67ab4f008a43fea304d640ab6b99183eedd1aa0c041314a3dfcb99cf5c",
-			"license": "GPL-3.0",
+		"contracts/Delegate.sol": {
+			"keccak256": "0xdf48cb9b2ce17a0681b083620a8030e4e44e1ca858cce06a0544af7535d9dfa1",
 			"urls": [
-				"bzz-raw://ae5ad11cbb9ea879851d7fa9a1e55089be873307b136efc15bc6baf68f5bfb73",
-				"dweb:/ipfs/QmSX5hS9fjB41YHenY3WoBD6v2rwSzwsj1nsnJvfnGxdai"
+				"bzz-raw://6d2febfe877dabaac41afa91b85ae7993e4e4fea74a34578d83c388258d03d48",
+				"dweb:/ipfs/QmYgbDSjGmvWQwthrfzhXpHz4iAgDTjSfp3kt9GLb4RPL4"
 			]
 		}
 	},

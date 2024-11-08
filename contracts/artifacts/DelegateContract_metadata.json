@@ -17,36 +17,10 @@
 				"type": "constructor"
 			},
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "Response",
-				"type": "event"
-			},
-			{
 				"inputs": [],
-				"name": "callReceive",
+				"name": "delegateCallGetDate",
 				"outputs": [],
 				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"name": "callSetName",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -63,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyContract.sol": "MyContract"
+			"contracts/Delegate.sol": "DelegateContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -77,12 +51,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyContract.sol": {
-			"keccak256": "0x49f3ae67ab4f008a43fea304d640ab6b99183eedd1aa0c041314a3dfcb99cf5c",
-			"license": "GPL-3.0",
+		"contracts/Delegate.sol": {
+			"keccak256": "0x6456ba31a14dbff16484fa6b4e496fd690750203e207ebb60330433009a1cf39",
 			"urls": [
-				"bzz-raw://ae5ad11cbb9ea879851d7fa9a1e55089be873307b136efc15bc6baf68f5bfb73",
-				"dweb:/ipfs/QmSX5hS9fjB41YHenY3WoBD6v2rwSzwsj1nsnJvfnGxdai"
+				"bzz-raw://ef95915051fdefed7009e1a4d8f63528ae431184caec6a34d2e9a95196235095",
+				"dweb:/ipfs/QmU2fNpc5KGK3B36z24pnmH2E6Rw2FV3VzBhat6aup4YUh"
 			]
 		}
 	},
